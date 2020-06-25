@@ -16,7 +16,7 @@
 // });
 
 // Route::get('/', 'InvitationController@index');
-Route::get('/dashboard', 'InvitationController@index');
+Route::get('/', 'InvitationController@index');
 
 // Route::get('/register', 'InvitationController@create');
 Route::post('/register/filter', 'InvitationController@store');
