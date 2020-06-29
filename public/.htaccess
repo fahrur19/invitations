@@ -20,6 +20,4 @@
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
     php_value memory_limit 64M;
-
-    RewriteBase /
 </IfModule>

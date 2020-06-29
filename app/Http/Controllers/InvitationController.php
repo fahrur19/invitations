@@ -76,7 +76,7 @@ class InvitationController extends Controller
        
 
         // return View::make("template/dashboard", compact($result));
-        return redirect ("/dashboard");
+        return redirect ("/");
 
     }
 
